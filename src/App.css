@@ -4,19 +4,21 @@
     margin: 0 auto;
 }
 
-button.theme-button {
+.theme-link a {
     border: 2px solid #0071e3;
     background-color: #0071e3;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border-radius: 25px;
     cursor: pointer;
     margin-top: 5px;
     transition: .3s;
     font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
 }
 
-button.theme-button:hover {
+.theme-link a:hover {
     background-color: transparent;
     color: #0071e3;
 }
