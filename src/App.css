@@ -1,0 +1,21 @@
+.theme-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+button.theme-button {
+    border: 2px solid #0071e3;
+    background-color: #0071e3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+button.theme-button:hover {
+    background-color: transparent;
+    color: #0071e3;
+}
