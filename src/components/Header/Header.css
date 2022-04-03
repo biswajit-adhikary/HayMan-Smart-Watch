@@ -1,0 +1,45 @@
+.header {
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.header a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 12px;
+    padding: 6px 2px;
+    position: relative;
+    transition: .3s;
+}
+
+.header a.active-link {
+    color: #f44250;
+}
+
+.header a.active-link::after {
+    height: 2px;
+}
+
+.header a::after {
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 100%;
+    background-color: #f44250;
+    left: 0;
+    bottom: 0;
+    transition: .3s;
+}
+
+.header a:hover {
+    color: #f44250;
+}
+
+.header a:hover::after {
+    height: 2px;
+}
