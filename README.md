@@ -1,5 +1,5 @@
 ## Website Name: HayMan - Smart Watch
-### Live Website Link: [HayMan - Smart Watch](https://github.com/programming-hero-web-course-4/product-analysis-website-biswajit-adhikary)
+### Live Website Link: [HayMan - Smart Watch](https://lambent-begonia-b321cf.netlify.app/)
 
 What I added here:
 ------------------
