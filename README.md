@@ -1,15 +1,16 @@
 ## Website Name: HayMan - Smart Watch
-### Live URL: [HayMan - Smart Watch](https://github.com/programming-hero-web-course-4/product-analysis-website-biswajit-adhikary)
+### Live Website Link: [HayMan - Smart Watch](https://github.com/programming-hero-web-course-4/product-analysis-website-biswajit-adhikary)
 
 What I added here:
 ------------------
 * Display Reviews using internal "reviews.json" file.
 * Display three review in the home using JavScript function.
 * Display all reviews on the reviews page.
-* Create Router for display section.
+* Create Route for display section.
 * Display reports using internal "data.json" file in the Dashboard page.
-* Create custom look for display reviews.
-* A
+* Create custom look for display reviews two different page.
+* Use Destructuring for getting data from object.
+* Write three question answer in the Blog page.
 
 # Getting Started with Create React App
 

@@ -13,7 +13,7 @@ const Home = () => {
             <Hero></Hero>
             <div className='review-area'>
                 <div className="theme-container">
-                    <h3>Product Reviews</h3>
+                    <h3>Customer Reviews(3)</h3>
                     <div className="review-content">
                         {
                             newReview.map(review => <Review
@@ -23,7 +23,7 @@ const Home = () => {
                         }
                     </div>
                     <div className="theme-link">
-                        <Link to="/reviews">View All</Link>
+                        <Link to="/reviews">See All Reviews</Link>
                     </div>
                 </div>
             </div>

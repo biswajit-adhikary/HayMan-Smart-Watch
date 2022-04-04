@@ -16,6 +16,7 @@ const Dashboard = () => {
                 <h3>Website Report</h3>
                 <div className="chart-content">
                     <div className="single-chart">
+                        <h4>Simple LineChart</h4>
                         <LineChart
                             width={500}
                             height={400}
@@ -39,6 +40,7 @@ const Dashboard = () => {
                         </LineChart>
                     </div>
                     <div className="single-chart">
+                        <h4>Simple AreaChart</h4>
                         <AreaChart
                             width={500}
                             height={400}
@@ -60,6 +62,7 @@ const Dashboard = () => {
                         </AreaChart>
                     </div>
                     <div className="single-chart">
+                        <h4>Simple BarChart</h4>
                         <BarChart
                             width={500}
                             height={400}
@@ -82,6 +85,7 @@ const Dashboard = () => {
                         </BarChart>
                     </div>
                     <div className="single-chart">
+                        <h4>Simple ComposedChart</h4>
                         <ComposedChart
                             width={500}
                             height={400}
