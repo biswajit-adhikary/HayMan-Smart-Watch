@@ -1,9 +1,8 @@
 .header {
-    padding: 10px 0;
+    padding: 25px 0;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     font-weight: bold;
-    font-size: 13px;
 }
 
 .header a {
@@ -15,6 +14,7 @@
     padding: 6px 2px;
     position: relative;
     transition: .3s;
+    font-size: 12px;
 }
 
 .header a.active-link {
@@ -42,4 +42,10 @@
 
 .header a:hover::after {
     height: 2px;
+}
+
+@media only screen and (max-width: 767px) {
+    .header a {
+        margin: 0 5px;
+    }
 }

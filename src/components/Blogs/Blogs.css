@@ -1,0 +1,40 @@
+.blog-area {
+    padding: 50px 0;
+}
+
+.blog-area h2 {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.all-blog-post {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.single-blog-post {
+    padding: 20px;
+    border: 1px solid #ededed;
+}
+
+.single-blog-post h3 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.single-blog-post p {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .all-blog-post {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

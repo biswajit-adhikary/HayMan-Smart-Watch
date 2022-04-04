@@ -4,7 +4,6 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend, AreaChar
 
 const Dashboard = () => {
     const [chart, setChart] = useState([]);
-    console.log(chart);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
