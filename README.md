@@ -1,3 +1,16 @@
+## Website Name: HayMan - Smart Watch
+### Live URL: [HayMan - Smart Watch](https://github.com/programming-hero-web-course-4/product-analysis-website-biswajit-adhikary)
+
+What I added here:
+------------------
+* Display Reviews using internal "reviews.json" file.
+* Display three review in the home using JavScript function.
+* Display all reviews on the reviews page.
+* Create Router for display section.
+* Display reports using internal "data.json" file in the Dashboard page.
+* Create custom look for display reviews.
+* A
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
