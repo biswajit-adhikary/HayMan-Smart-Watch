@@ -1,0 +1,17 @@
+.notfound-area {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.notfound-area h3 {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.notfound-area h2 {
+    font-size: 52px;
+    margin: 0;
+    padding: 0;
+    margin: 15px 0;
+}
