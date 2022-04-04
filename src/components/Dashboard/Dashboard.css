@@ -1,0 +1,30 @@
+.chart-area {
+    padding: 50px 0;
+}
+
+.chart-area h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.chart-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.single-chart {
+    margin: 30px 0;
+}
+
+@media only screen and (max-width: 1080px) {
+    .chart-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .single-chart {
+        overflow-x: scroll;
+    }
+}
